@@ -1,0 +1,69 @@
+body {
+	text-align: center;
+}
+
+.first-container {
+	padding: 20px
+}
+
+.second-container {
+}
+
+.portrait {
+	width: 400px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+p.thick {
+	font-weight: 900;
+}
+
+.third-container {
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
+.fourth-container {
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
+.fifth-container {
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
+img.food {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.empty-container {
+	height: 30px;
+}
+
+.sixth-container {
+	background-color: #d0d0d0;
+	padding: 40px;
+}
+
+.seventh-container {
+	width: 350px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

@@ -1,5 +1,7 @@
 body {
 	text-align: center;
+	background-color: #F8FEFA;
+	color: #565656
 }
 
 .first-container {
@@ -7,46 +9,32 @@ body {
 }
 
 .second-container {
+	width: 75%;
+	margin-left: auto;
+    margin-right: auto;
+
 }
 
 .portrait {
-	width: 400px;
+	width: 60%;
 }
 
 .img-circle {
 	border-radius: 50%;
+	width: 25%;
 }
 
 p.thick {
 	font-weight: 900;
 }
 
-.third-container {
-	margin-left: 40px;
-	margin-top: 40px;
-	margin-right: 40px;
-	margin-bottom: 10px;
-}
-
-.fourth-container {
-	margin-left: 40px;
-	margin-top: 40px;
-	margin-right: 40px;
-	margin-bottom: 10px;
-}
-
-.fifth-container {
-	margin-left: 40px;
-	margin-top: 40px;
-	margin-right: 40px;
-	margin-bottom: 10px;
-}
 
 img.food {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 75%;
+    border-radius: 2%;
 }
 
 .empty-container {
@@ -54,15 +42,34 @@ img.food {
 }
 
 .sixth-container {
-	background-color: #d0d0d0;
+	background-color: #BBE7C3;
 	padding: 40px;
 }
 
 .seventh-container {
-	width: 350px;
+	width: 75%;
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.fa {
+	font-size: 28px;
+	color: #565656;
+}
+
+@media only screen and (max-width: 767px) {
+	.portrait {
+		width: 70%;
+	}
+
+	.third-container {
+		margin-bottom: 20px;
+	}
+
+	.fourth-container {
+		margin-bottom: 20px;
+	}
 }
 
 
